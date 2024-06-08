@@ -7,6 +7,7 @@
   "start_url": "/",
   "name": "KBSkeleton",
   "short_name": "temp",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "icons/icon-144x144.png",
