@@ -2,9 +2,7 @@
 
 <template>
   <div>
-    <div class="upper"></div>
     <RouterView />
-    <div class="bottom"></div>
   </div>
 </template>
 
@@ -14,6 +12,20 @@
 /* Pretendard */
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css');
 
+#app {
+  position: relative;
+  margin: 0 auto;
+  height: 100dvh;
+  min-width: 296px;
+  max-width: 600px;
+  background-color: var(--white);
+  /* padding-top: env(safe-area-inset-top); */
+}
+
+body {
+  background-color: var(--white);
+}
+
 * {
   font-family: 'Pretendard Variable', Pretendard, -apple-system,
     BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI',
@@ -22,36 +34,7 @@
 
   --gray900: #191f28;
   --white: #fdfdfd;
+
   color: var(--gray900);
-}
-
-body {
-  background-color: var(--white);
-}
-
-#app {
-  height: 100dvh;
-  min-width: 300px;
-  max-width: 600px;
-  /* padding-top: env(safe-area-inset-top); */
-  margin: 0 auto;
-  position: relative;
-  background-color: var(--white);
-}
-
-.upper {
-  position: absolute;
-  width: 100%;
-  height: 40px;
-  top: 0px;
-  background-color: var(--gray900);
-}
-
-.bottom {
-  position: absolute;
-  width: 100%;
-  height: 40px;
-  bottom: 0px;
-  background-color: var(--gray900);
 }
 </style>
