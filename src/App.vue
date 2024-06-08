@@ -38,7 +38,7 @@
   position: absolute;
   width: 100%;
   height: 40px;
-  top: 10px;
+  top: 0px;
   background-color: var(--gray900);
 }
 
@@ -46,7 +46,7 @@
   position: absolute;
   width: 100%;
   height: 40px;
-  bottom: 10px;
+  bottom: 0px;
   background-color: var(--gray900);
 }
 </style>
