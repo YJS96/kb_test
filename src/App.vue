@@ -25,6 +25,10 @@
   color: var(--gray900);
 }
 
+body {
+  background-color: var(--white);
+}
+
 #app {
   height: 100dvh;
   min-width: 300px;
@@ -32,6 +36,7 @@
   /* padding-top: env(safe-area-inset-top); */
   margin: 0 auto;
   position: relative;
+  background-color: var(--white);
 }
 
 .upper {
