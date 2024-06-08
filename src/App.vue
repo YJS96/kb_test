@@ -30,7 +30,6 @@
   min-width: 300px;
   max-width: 600px;
   /* padding-top: env(safe-area-inset-top); */
-  background-color: black;
   margin: 0 auto;
   position: relative;
 }
@@ -40,7 +39,7 @@
   width: 100%;
   height: 40px;
   top: 10px;
-  background-color: var(--white);
+  background-color: var(--gray900);
 }
 
 .bottom {
@@ -48,6 +47,6 @@
   width: 100%;
   height: 40px;
   bottom: 10px;
-  background-color: var(--white);
+  background-color: var(--gray900);
 }
 </style>
