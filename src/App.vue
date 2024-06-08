@@ -29,7 +29,7 @@
   height: 100dvh;
   min-width: 300px;
   max-width: 600px;
-  padding-top: env(safe-area-inset-top);
+  /* padding-top: env(safe-area-inset-top); */
   background-color: black;
   margin: 0 auto;
   position: relative;
